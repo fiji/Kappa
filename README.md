@@ -1,7 +1,7 @@
 ![Kappa logo](logo.png)
 
-[![](https://travis-ci.org/brouhardlab/Kappa.svg?branch=master)](https://travis-ci.org/brouhardlab/Kappa)
-[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/brouhardlab/Kappa/master?urlpath=lab/tree/Analysis/Notebooks)
+[![](https://travis-ci.com/fiji/Kappa.svg?branch=master)](https://travis-ci.com/fiji/Kappa)
+[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/fiji/Kappa/master?urlpath=lab/tree/Analysis/Notebooks)
 
 # Kappa
 
@@ -17,7 +17,7 @@ See also the [ImageJ Wiki page](https://imagej.net/Kappa).
 
 Analysis done for the paper is available and can be reproduced from this older. See [`Analysis`](./Analysis).
 
-You can fire a remote Jupyter notebook server and reproduce the analysis using Binder: <https://mybinder.org/v2/gh/brouhardlab/Kappa/master?urlpath=lab/tree/Analysis/Notebooks.>
+You can fire a remote Jupyter notebook server and reproduce the analysis using Binder: <https://mybinder.org/v2/gh/fiji/Kappa/master?urlpath=lab/tree/Analysis/Notebooks.>
 
 ## Installation
 
@@ -36,7 +36,7 @@ See documentation in the [docs/ folder](./docs/).
 
 ## Authors
 
-`Kappa` has been created originally by [Kevan Lu](http://www.kevan.lu/) and is now maintained by [Hadrien Mary](mailto:hadrien.mary@gmail.com).
+`Kappa` has been created originally by [Kevan Lu](http://www.kevan.lu/) and further developed by [Hadrien Mary](mailto:hadrien.mary@gmail.com).
 
 This work started in 2013 in the [Gary Brouhard laboratory](http://brouhardlab.mcgill.ca/) at the University of McGill.
 

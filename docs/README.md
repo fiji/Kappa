@@ -34,11 +34,11 @@ a minimization algorithm. It’s fast and robust.
 
 ### Source code
 
-Kappa source code is available at https://github.com/brouhardlab/Kappa.
+Kappa source code is available at https://github.com/fiji/Kappa.
 
 ### Authors
 
-`Kappa` has been created originally by [Kevan Lu](http://www.kevan.lu/) and is now maintained by [Hadrien Mary](mailto:hadrien.mary@gmail.com).
+`Kappa` has been created originally by [Kevan Lu](http://www.kevan.lu/) and was further developed by [Hadrien Mary](mailto:hadrien.mary@gmail.com).
 
 This work started in 2013 in the [Gary Brouhard laboratory](http://brouhardlab.mcgill.ca/) at the University of McGill.
 

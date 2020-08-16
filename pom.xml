@@ -14,15 +14,12 @@
 
 	<name>Kappa</name>
 	<description>A Fiji plugin for Curvature Analysis.</description>
-	<url>https://github.com/brouhardlab/kappa</url>
-
+	<url>https://github.com/fiji/Kappa</url>
 	<inceptionYear>2016</inceptionYear>
-
 	<organization>
 		<name>Fiji</name>
 		<url>http://fiji.sc/</url>
 	</organization>
-
 	<licenses>
 		<license>
 			<name>MIT License</name>
@@ -69,9 +66,19 @@
 		</mailingList>
 	</mailingLists>
 
+	<scm>
+		<connection>scm:git:git://github.com/fiji/Kappa</connection>
+		<developerConnection>scm:git:git@github.com:fiji/Kappa</developerConnection>
+		<tag>HEAD</tag>
+		<url>https://github.com/fiji/Kappa</url>
+	</scm>
+	<issueManagement>
+		<system>GitHub Issues</system>
+		<url>https://github.com/fiji/Kappa/issues</url>
+	</issueManagement>
 	<ciManagement>
 		<system>Travis CI</system>
-		<url>https://travis-ci.org/brouhardlab/kappa</url>
+		<url>https://travis-ci.com/fiji/Kappa</url>
 	</ciManagement>
 
 	<properties>
@@ -79,31 +86,11 @@
 		<license.licenseName>mit</license.licenseName>
 		<license.copyrightOwners>Gary Brouhard</license.copyrightOwners>
 
-		<commons-io.version>2.6</commons-io.version>
-
 		<!-- NB: Deploy releases to the SciJava Maven repository. -->
 		<releaseProfiles>deploy-to-scijava</releaseProfiles>
-		
+
 		<opencsv.version>5.2</opencsv.version>
 	</properties>
-
-	<scm>
-		<connection>scm:git:git://github.com/brouhardlab/kappa</connection>
-		<developerConnection>scm:git:git@github.com:brouhardlab/kappa</developerConnection>
-		<tag>HEAD</tag>
-		<url>https://github.com/brouhardlab/kappa</url>
-	</scm>
-	<issueManagement>
-		<system>GitHub Issues</system>
-		<url>https://github.com/brouhardlab/kappa/issues</url>
-	</issueManagement>
-
-	<repositories>
-		<repository>
-			<id>scijava.public</id>
-			<url>https://maven.scijava.org/content/groups/public</url>
-		</repository>
-	</repositories>
 
 	<dependencies>
 
@@ -148,8 +135,12 @@
 			<groupId>commons-io</groupId>
 			<artifactId>commons-io</artifactId>
 		</dependency>
-
-
 	</dependencies>
 
+	<repositories>
+		<repository>
+			<id>scijava.public</id>
+			<url>https://maven.scijava.org/content/groups/public</url>
+		</repository>
+	</repositories>
 </project>
