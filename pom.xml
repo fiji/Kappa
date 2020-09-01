@@ -85,7 +85,7 @@
 	<properties>
 		<package-name>sc.fiji.kappa</package-name>
 		<license.licenseName>mit</license.licenseName>
-		<license.copyrightOwners>Gary Brouhard</license.copyrightOwners>
+		<license.copyrightOwners>Fiji developers.</license.copyrightOwners>
 
 		<!-- NB: Deploy releases to the SciJava Maven repository. -->
 		<releaseProfiles>deploy-to-scijava</releaseProfiles>
