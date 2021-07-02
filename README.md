@@ -1,6 +1,6 @@
 ![Kappa logo](logo.png)
 
-[![](https://travis-ci.com/fiji/Kappa.svg?branch=master)](https://travis-ci.com/fiji/Kappa)
+[![](https://github.com/fiji/Kappa/actions/workflows/build-main.yml/badge.svg)](https://github.com/fiji/Kappa/actions/workflows/build-main.yml)
 [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/fiji/Kappa/master?urlpath=lab/tree/Analysis/Notebooks)
 
 # Kappa

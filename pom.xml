@@ -78,8 +78,8 @@
 		<url>https://github.com/fiji/Kappa/issues</url>
 	</issueManagement>
 	<ciManagement>
-		<system>Travis CI</system>
-		<url>https://travis-ci.com/fiji/Kappa</url>
+		<system>GitHub Actions</system>
+		<url>https://github.com/fiji/Kappa/actions</url>
 	</ciManagement>
 
 	<properties>
@@ -88,7 +88,7 @@
 		<license.copyrightOwners>Fiji developers.</license.copyrightOwners>
 
 		<!-- NB: Deploy releases to the SciJava Maven repository. -->
-		<releaseProfiles>deploy-to-scijava</releaseProfiles>
+		<releaseProfiles>sign,deploy-to-scijava</releaseProfiles>
 
 		<opencsv.version>5.2</opencsv.version>
 	</properties>
