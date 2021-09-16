@@ -29,8 +29,7 @@ jobs:
           distribution: 'zulu'
       - name: Set up conda
         uses: s-weigand/setup-conda@v1
-      - run: conda env create -n scijava-ci
-      - run: conda activate scijava-ci
+      - run: conda env update -f environment.yml -n base
       - name: Set up CI environment
         run: .github/setup.sh
       - name: Execute the build
