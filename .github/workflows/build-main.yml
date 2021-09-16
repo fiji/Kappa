@@ -13,8 +13,7 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-
-      - name: Cache m2 folder
+      - name: Cache local Maven repository
         uses: actions/cache@v2
         env:
           cache-name: cache-m2
@@ -25,12 +24,15 @@ jobs:
             ${{ runner.os }}-build-${{ env.cache-name }}-
             ${{ runner.os }}-build-
             ${{ runner.os }}-
-
-      - name: Set up JDK 8
+      - name: Set up Java
         uses: actions/setup-java@v2
         with:
           java-version: '8'
           distribution: 'zulu'
+      - name: Set up conda
+        uses: s-weigand/setup-conda@v1
+      - run: conda env create -n scijava-ci
+      - run: conda activate scijava-ci
       - name: Set up CI environment
         run: .github/setup.sh
       - name: Execute the build
