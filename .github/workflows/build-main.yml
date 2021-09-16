@@ -31,7 +31,8 @@ jobs:
           distribution: 'zulu'
       - name: Set up conda
         uses: s-weigand/setup-conda@v1
-      - run: conda env update -f environment.yml -n base
+      - name: Install conda packages
+        run: conda env update -f environment.yml -n base
       - name: Set up CI environment
         run: .github/setup.sh
       - name: Execute the build
