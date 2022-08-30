@@ -21,7 +21,7 @@ You can fire a remote Jupyter notebook server and reproduce the analysis using B
 
 ## Installation
 
-`FilamentDetector` is included with Fiji. Just open your image,
+`Kappa` is included with Fiji. Just open your image,
 then start the plugin with `Plugins ► Analyze ► Kappa - Curvature Analysis`.
 
 ## Documentation
