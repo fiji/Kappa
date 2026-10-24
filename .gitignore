@@ -27,4 +27,6 @@ pom.xml.releaseBackup
 __pycache__
 
  release.properties
- 
+
+## IntelliJ ##
+/.idea/
