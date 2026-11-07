@@ -1,6 +1,6 @@
 ![Kappa logo](logo.png)
 
-[![](https://github.com/fiji/Kappa/actions/workflows/build-main.yml/badge.svg)](https://github.com/fiji/Kappa/actions/workflows/build-main.yml)
+[![Build Status](https://github.com/fiji/Kappa/actions/workflows/build.yml/badge.svg)](https://github.com/fiji/Kappa/actions/workflows/build.yml)
 [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/fiji/Kappa/master?urlpath=lab/tree/Analysis/Notebooks)
 
 # Kappa
