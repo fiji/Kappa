@@ -22,10 +22,6 @@ jobs:
           java-version: '11'
           distribution: 'zulu'
           cache: 'maven'
-      - name: Set up conda
-        uses: s-weigand/setup-conda@v1
-      - name: Install conda packages
-        run: conda env update -f environment.yml -n base
       - name: Set up CI environment
         run: .github/setup.sh
         shell: bash
